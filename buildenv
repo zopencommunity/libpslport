@@ -1,7 +1,7 @@
 # Update bump details accordingly. Use bump check to confirm.
 # bump: libpsl-version /LIBPSL_VERSION="(.*)"/ https://github.com/rockdaboot/libpsl.git|semver:*
-# LIBPSL_VERSION="0.21.5" # Specify a stable release
-# export ZOPEN_STABLE_TAG="v${LIBPSL_VERSION}"
+LIBPSL_VERSION="0.21.5" # Specify a stable release
+export ZOPEN_STABLE_TAG="${LIBPSL_VERSION}"
 
 ###
 ### Build control file for the libpsl port
